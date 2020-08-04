@@ -1,0 +1,64 @@
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+  }
+
+  .carousel-item {
+    height: 450px;
+  }
+  
+  .carousel-image-1 {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+  }
+  
+  .carousel-image-2 {
+    background: url('../img/image2.jpg');
+    background-size: cover;
+  }
+  
+  .carousel-image-3 {
+    background: url('../img/image3.jpg');
+    background-size: cover;
+  } 
+
+#ready {
+  background: url(/img/lights.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.dark-overlay {
+  background: rgba(0,0,0,0.8);
+}
+
+#see {
+  background: url(/img/media.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#foot {
+  background: black;
+}
+
+#ahead {
+  background: url("/img/image1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 55px;
+}
+
+.image1{
+  margin-top: -70px;
+}
+
+.bg-color {
+  background-color: #353332;
+}
+
+@media(max-width:767px){
+   
+  .mb-resp {
+    margin-bottom: 20px;
+  }
+}
